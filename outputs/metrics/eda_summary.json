@@ -1,0 +1,75 @@
+{
+  "files_scanned": 20639,
+  "excluded": [
+    {
+      "path": "Pepper__bell___healthy/42f083e2-272d-4f83-ad9a-573ee90e50ec___Screen Shot 2015-05-06 at 4.01.13 PM.png",
+      "exclude": "manual: wrong label"
+    },
+    {
+      "path": "Tomato__Tomato_YellowLeaf__Curl_Virus/svn-r6Yb5c",
+      "exclude": "unreadable"
+    }
+  ],
+  "clean_images": 20637,
+  "num_classes": 15,
+  "image_size_raw": "256x256 RGB",
+  "class_counts": {
+    "Tomato YellowLeaf Curl Virus": 3208,
+    "Tomato Bacterial spot": 2127,
+    "Tomato Late blight": 1909,
+    "Tomato Septoria leaf spot": 1771,
+    "Tomato Spider mites Two spotted spider mite": 1676,
+    "Tomato healthy": 1591,
+    "Pepper healthy": 1477,
+    "Tomato Target Spot": 1404,
+    "Potato Early blight": 1000,
+    "Potato Late blight": 1000,
+    "Tomato Early blight": 1000,
+    "Pepper Bacterial spot": 997,
+    "Tomato Leaf Mold": 952,
+    "Tomato mosaic virus": 373,
+    "Potato healthy": 152
+  },
+  "imbalance_ratio": 21.1,
+  "exact_duplicate_files": 28,
+  "near_duplicate_pairs": 95,
+  "images_in_duplicate_groups": 169,
+  "split_counts": {
+    "train": 14447,
+    "val": 3098,
+    "test": 3092
+  },
+  "train_pixel_stats": {
+    "mean": [
+      0.4592,
+      0.4754,
+      0.4119
+    ],
+    "std": [
+      0.1856,
+      0.1621,
+      0.2006
+    ],
+    "n_images": 14447
+  },
+  "dark_background_share": {
+    "Tomato Late blight": 0.079
+  },
+  "class_weights": {
+    "Pepper Bacterial spot": 1.38,
+    "Pepper healthy": 0.931,
+    "Potato Early blight": 1.376,
+    "Potato Late blight": 1.376,
+    "Potato healthy": 9.086,
+    "Tomato Bacterial spot": 0.647,
+    "Tomato Early blight": 1.376,
+    "Tomato Late blight": 0.721,
+    "Tomato Leaf Mold": 1.446,
+    "Tomato Septoria leaf spot": 0.777,
+    "Tomato Spider mites Two spotted spider mite": 0.821,
+    "Tomato Target Spot": 0.98,
+    "Tomato YellowLeaf Curl Virus": 0.429,
+    "Tomato mosaic virus": 3.69,
+    "Tomato healthy": 0.864
+  }
+}

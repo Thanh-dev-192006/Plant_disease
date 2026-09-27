@@ -220,3 +220,13 @@ __marimo__/
 data/
 .remember/
 .claude/
+# --- Project-specific ---
+# Trained weights & checkpoints (too large for git; share via Drive)
+models/*
+!models/.gitkeep
+*.h5
+*.keras
+*.ckpt*
+# TensorBoard / training logs
+outputs/logs/*
+!outputs/logs/.gitkeep

@@ -1,0 +1,20 @@
+# Python 3.10 (TensorFlow 2.10 does not support 3.11+)
+tensorflow==2.10.1
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+seaborn==0.13.2
+pillow==12.3.0
+ipykernel
+
+# GPU on native Windows only (CUDA 11.8 + cuDNN 8.9 via pip).
+# Skip these on Colab/Kaggle/Linux — they ship their own CUDA.
+nvidia-cuda-runtime-cu11==11.8.*; sys_platform == "win32"
+nvidia-cuda-nvcc-cu11==11.8.*; sys_platform == "win32"
+nvidia-cublas-cu11==11.11.*; sys_platform == "win32"
+nvidia-cufft-cu11; sys_platform == "win32"
+nvidia-curand-cu11; sys_platform == "win32"
+nvidia-cusolver-cu11; sys_platform == "win32"
+nvidia-cusparse-cu11; sys_platform == "win32"
+nvidia-cudnn-cu11==8.9.*; sys_platform == "win32"
